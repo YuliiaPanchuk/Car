@@ -195,3 +195,31 @@ a.covid:hover,
 a.covid:active {
   background-color: #2f3032;
 }
+
+.secondPart {
+  background-color: #eeeeee;
+  height: 700px;
+  margin-top: 0;
+}
+
+.secondText h2 {
+  margin-top: 0;
+  padding-left: 180px;
+  padding-top: 100px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 40px;
+  font-size: 32px;
+}
+
+.citiesText p {
+  padding-left: 180px;
+  padding-top: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.images img {
+  height: 200px;
+  display: inline-block;
+  padding-left: 100px;
+  padding-top: 230px;
+}
