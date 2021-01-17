@@ -200,6 +200,7 @@ a.covid:active {
   background-color: #eeeeee;
   height: 700px;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .secondText h2 {
@@ -212,9 +213,12 @@ a.covid:active {
 }
 
 .citiesText p {
-  padding-left: 180px;
+  margin-left: 180px;
   padding-top: 30px;
   font-family: 'Raleway', sans-serif;
+  border-bottom: 1px solid;
+  border-color: #dddddd;
+  width: fit-content;
 }
 
 .images img {
@@ -222,4 +226,41 @@ a.covid:active {
   display: inline-block;
   padding-left: 100px;
   padding-top: 230px;
+}
+
+.thirdPart img {
+  height: 300px;
+  display: inline-block;
+  padding-left: 120px;
+  padding-top: 30px;
+}
+
+.thirdPart h3 {
+  margin-top: 0;
+  padding-top: 80px;
+  margin-left: 130px;
+  margin-bottom: 0;
+  font-size: 26px;
+
+}
+
+.thirdPart p {
+  padding-top: 5px;
+  margin-left: 130px;
+  font-size: 15px;
+}
+
+.thirdPart {
+  margin-top: 0;
+  background-color: aquamarine;
+}
+
+.pictures {
+  height: 600px;
+  padding-top: 50px;
+  display: inline-block;
+}
+
+.pictures p {
+  text-align: center;
 }
