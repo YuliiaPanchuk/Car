@@ -230,7 +230,6 @@ a.covid:active {
 
 .thirdPart img {
   height: 300px;
-  display: inline-block;
   padding-left: 120px;
   padding-top: 30px;
 }
@@ -252,15 +251,44 @@ a.covid:active {
 
 .thirdPart {
   margin-top: 0;
-  background-color: aquamarine;
+  background-color: white;
+  
 }
 
 .pictures {
   height: 600px;
-  padding-top: 50px;
   display: inline-block;
+  
 }
 
 .pictures p {
-  text-align: center;
+  width: 260px;
+  line-height: 25px;
+}
+
+.train {
+  display: inline-block;
+}
+
+.food {
+  display: inline-block;
+}
+
+.travel {
+  display: inline-block;
+}
+
+.footer {
+  height: 600px;
+  background-color: black;
+}
+
+.footer i {
+  color: white;
+  display: inline-block;
+}
+
+.footer p {
+  color: white;
+  display: inline-block;
 }
