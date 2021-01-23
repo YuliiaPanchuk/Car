@@ -41,7 +41,7 @@ body {
   color: black;
 }
 
-.bodyIcons  a:hover {
+.bodyIcons a:hover {
   color: #bbbbbb;
 }
 
@@ -104,7 +104,6 @@ body {
 }
 
 .mainPicture {
-
   height: 300px;
   margin-left: 150px;
 }
@@ -207,7 +206,7 @@ a.covid:active {
   margin-top: 0;
   padding-left: 180px;
   padding-top: 100px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 40px;
   font-size: 32px;
 }
@@ -215,7 +214,7 @@ a.covid:active {
 .citiesText p {
   margin-left: 180px;
   padding-top: 30px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   border-bottom: 1px solid;
   border-color: #dddddd;
   width: fit-content;
@@ -240,7 +239,6 @@ a.covid:active {
   margin-left: 130px;
   margin-bottom: 0;
   font-size: 26px;
-
 }
 
 .thirdPart p {
@@ -252,13 +250,11 @@ a.covid:active {
 .thirdPart {
   margin-top: 0;
   background-color: white;
-  
 }
 
 .pictures {
   height: 600px;
   display: inline-block;
-  
 }
 
 .pictures p {
@@ -279,8 +275,25 @@ a.covid:active {
 }
 
 .footer {
-  height: 600px;
+  height: 130px;
   background-color: black;
+  padding-top: 100px;
+}
+
+.footerText {
+  padding-bottom: 0;
+}
+
+.footerRow {
+  display: block;
+  height: 60px;
+}
+
+.footerRight {
+  float: right;
+}
+.footerLeft {
+  float: left;
 }
 
 .footer i {
@@ -292,3 +305,36 @@ a.covid:active {
   color: white;
   display: inline-block;
 }
+
+.apple,
+.google {
+display: inline-block;
+}
+
+.store {
+  width: 150px;
+  height: 50px;
+  border: 1px solid white;
+  background-color: black;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.app {
+  width: 150px;
+  height: 50px;
+  border: 1px solid white;
+  background-color: black;
+  border-radius: 10px;
+  font-size: 15px;
+  
+}
+
+.rights {
+  display: inline-block;
+  font-size: 13px;
+  position: absolute;
+  
+}
+
+
